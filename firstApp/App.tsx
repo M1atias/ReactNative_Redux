@@ -1,19 +1,10 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
-import { Text, View } from 'react-native';
+import HolaMundoScreen from './src/screens/HolaMundoScreens';
 
 const App = () => {
   return (
-    <View style={{
-      flex:1,
-      //backgroundColor:'red',
-      justifyContent:'center'
-    }}>
-      <Text style={{
-        fontSize:45,
-        textAlign:'center'
-      }}>Hola Mundo</Text>
-    </View>
+    <HolaMundoScreen />
   )
 };
 
